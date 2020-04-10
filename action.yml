@@ -1,3 +1,6 @@
+- name: Setup Node.js environment
+  uses: actions/setup-node@v1.4.1
+
 name: 'Setup Node.js environment'
 description: 'Setup a Node.js environment and add it to the PATH, additionally providing proxy support'
 author: 'GitHub'
